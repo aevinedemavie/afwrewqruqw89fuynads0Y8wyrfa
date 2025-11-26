@@ -1423,8 +1423,8 @@ Components.Section = function(Title, Parent)
     })
 
     Section.Root = Creator.New("Frame", {
-        BackgroundTransparency = 0.05,
-        BackgroundColor3 = Color3.fromRGB(255, 180, 30),
+        BackgroundTransparency = 0,
+        BackgroundColor3 = Color3.fromRGB(255, 200, 50),
         Size = UDim2.new(1, 0, 0, 32),
         LayoutOrder = 7,
         Parent = Parent,
@@ -1438,11 +1438,20 @@ Components.Section = function(Title, Parent)
         Creator.New("UIStroke", {
             ApplyStrokeMode = Enum.ApplyStrokeMode.Border,
             Color = Color3.fromRGB(150, 120, 20),
-            Transparency = 0.4
+            Transparency = 0.35
+        }),
+        Creator.New("UIGradient", {
+            Color = ColorSequence.new({
+                ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 200, 50)),
+                ColorSequenceKeypoint.new(1, Color3.fromRGB(230, 170, 40))
+            })
         }),
         Section.Header,
         Section.Container
     })
+
+    return Section
+end
 
     Section.Collapsed = true
 
