@@ -37,7 +37,7 @@ local Themes = {
         Element = Color3.fromRGB(50, 45, 25),
         ElementBorder = Color3.fromRGB(150, 130, 50),
         InElementBorder = Color3.fromRGB(180, 160, 80),
-        ElementTransparency = 0.50,
+        ElementTransparency = 0.90,
 
         ToggleSlider = Color3.fromRGB(255, 200, 0),
         ToggleToggled = Color3.fromRGB(255, 255, 255),
