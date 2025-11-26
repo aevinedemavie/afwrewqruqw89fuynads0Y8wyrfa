@@ -1424,7 +1424,7 @@ Components.Section = function(Title, Parent)
 
     Section.Root = Creator.New("Frame", {
         BackgroundTransparency = 0.05,
-        BackgroundColor3 = Color3.fromRGB(230, 170, 20),
+        BackgroundColor3 = Color3.fromRGB(255, 180, 30),
         Size = UDim2.new(1, 0, 0, 32),
         LayoutOrder = 7,
         Parent = Parent,
