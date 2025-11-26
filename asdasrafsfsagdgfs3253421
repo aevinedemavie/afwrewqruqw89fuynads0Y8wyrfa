@@ -128,8 +128,7 @@ local function CloseOpen()
 	Close_ImageButton.BorderColor3 = Color3.fromRGB(180, 150, 50)
 	Close_ImageButton.Position = UDim2.new(0.1021, 0, 0.0743, 0)
 	Close_ImageButton.Size = UDim2.new(0, 59, 0, 49)
-	Close_ImageButton.Image = "rbxassetid://102794753447548" --98235895490170 | 123767073052336 | 102794753447548
-	Close_ImageButton.Visible = false
+	Close_ImageButton.Image = "rbxassetid://107728827049183" 
 
 	UICorner.Name = "MainCorner"
 	UICorner.CornerRadius = UDim.new(0, 9)
@@ -4656,7 +4655,7 @@ local Icons = {
 	["lucide-columns"] = "rbxassetid://10709811261",
 	["lucide-command"] = "rbxassetid://10709811365",
 	["lucide-compass"] = "rbxassetid://10709811445",
-	["lucide-component"] = "rbxassetid://10709811595",
+	["lucide-component"] = "rbxassetid://10709811595",a
 	["lucide-concierge-bell"] = "rbxassetid://10709811706",
 	["lucide-connection"] = "rbxassetid://10747361219",
 	["lucide-contact"] = "rbxassetid://10709811834",
